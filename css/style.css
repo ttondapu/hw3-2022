@@ -2,23 +2,27 @@ body {
     background-color: #000000;
     font-family: Arial, Verdana;
     color: #ffffff;
-    margin: 20px, 0px, 20px, 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
 
-main h1 {
+body h1 {
     text-align: center;
     font-size: 42px;
     padding: 15px;
 }
 
-main h2 {
+body h2 {
     font-size: 30px;
     color: #0D0D0D
 }
 
 body p {
     font-size: 24px;
-    padding: 10px, 0px, 0px, 10px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 body img {
@@ -30,7 +34,7 @@ body img {
     border-color: #ffffff;
 }
 
-body div {
+div {
     min-height: 125px;
     padding: 20px;
     border: 3px;
@@ -38,24 +42,27 @@ body div {
     border-color: #ffffff;
 }
 
-body div.introduction {
+div.introduction {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
 }
 
-div.red {
+.red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border: 0px, 0px, 2px, 5px;
-}
+    /* border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    border-left: 5px; */
+} 
 
 div.blue {
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border: 2px, 5px, 0px, 2px;
+    border: 2px, 5px, 0px, 0px;
     color: #C4C4C4
 }
 
@@ -78,19 +85,22 @@ div.green {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border: 2px, 5px, 0px, 2px;
+    border: 2px, 5px, 0px, 0px;
 }
 
 body footer {
+    background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%); 
     border: 5px;
     border-style: solid;
     border-color: #ffffff;
-    background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%); 
 }
 
-body footer p {
+footer p {
     font-size: 20px;
-    padding: 15px, 15px, 15px, 0px;
     text-align: right;
+    /* padding: 15px, 15px, 15px, 0px; */
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
 }
-
